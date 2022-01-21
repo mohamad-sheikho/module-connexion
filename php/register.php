@@ -5,9 +5,6 @@ include 'config.php';
 error_reporting(0);
 
 session_start();
-
-
-
 if (isset($_POST['submit'])) {
 	$login = $_POST['username'];
 	$prenom = $_POST['prenom'];
